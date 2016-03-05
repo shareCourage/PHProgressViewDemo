@@ -14,6 +14,7 @@
 		A969CC281C858B710083B2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A969CC271C858B710083B2E2 /* Assets.xcassets */; };
 		A969CC2B1C858B710083B2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A969CC291C858B710083B2E2 /* LaunchScreen.storyboard */; };
 		A969CC361C858B710083B2E2 /* PHProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A969CC351C858B710083B2E2 /* PHProgressViewTests.m */; };
+		A969CC471C8AAFA20083B2E2 /* PHProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A969CC461C8AAFA20083B2E2 /* PHProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A969CC311C858B710083B2E2 /* PHProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A969CC351C858B710083B2E2 /* PHProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHProgressViewTests.m; sourceTree = "<group>"; };
 		A969CC371C858B710083B2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A969CC451C8AAFA20083B2E2 /* PHProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHProgressView.h; sourceTree = "<group>"; };
+		A969CC461C8AAFA20083B2E2 /* PHProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				A969CC291C858B710083B2E2 /* LaunchScreen.storyboard */,
 				A969CC2C1C858B710083B2E2 /* Info.plist */,
 				A969CC1B1C858B710083B2E2 /* Supporting Files */,
+				A969CC451C8AAFA20083B2E2 /* PHProgressView.h */,
+				A969CC461C8AAFA20083B2E2 /* PHProgressView.m */,
 			);
 			path = PHProgressView;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				A969CC231C858B710083B2E2 /* ViewController.m in Sources */,
 				A969CC201C858B710083B2E2 /* AppDelegate.m in Sources */,
 				A969CC1D1C858B710083B2E2 /* main.m in Sources */,
+				A969CC471C8AAFA20083B2E2 /* PHProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +406,7 @@
 				A969CC3C1C858B710083B2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A969CC3D1C858B710083B2E2 /* Build configuration list for PBXNativeTarget "PHProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +415,7 @@
 				A969CC3F1C858B710083B2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
