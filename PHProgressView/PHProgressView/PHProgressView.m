@@ -47,8 +47,8 @@ static const NSInteger minTotalPathNumber = 5;
         [self.layer addSublayer:self.outSideCircleLayer];
         
         self.insideRadius = self.outSideRadius - padding;
-        [self.inSidePath addArcWithCenter:self.selfCenter radius:self.insideRadius startAngle:0 endAngle:M_PI * 2 clockwise:YES];
-        self.insideCircleLayer.path = self.inSidePath.CGPath;
+//        [self.inSidePath addArcWithCenter:self.selfCenter radius:self.insideRadius startAngle:0 endAngle:M_PI * 2 clockwise:YES];
+//        self.insideCircleLayer.path = self.inSidePath.CGPath;
         [self.layer addSublayer:self.insideCircleLayer];
     }//UIProgressView;
     return self;
